@@ -47,7 +47,7 @@ O projeto inclui 52 testes automatizados:
 - **2 Falhas** (casos em que a verificação apresentou erro).
 
 ## Tecnologias Utilizadas
-- Linguagem de programação: [Especifique a linguagem usada, ex: Python, C, Java]
-- Ambiente de desenvolvimento: [Especifique IDE ou ferramentas usadas]
+- Linguagem de programação: C
+- Ambiente de desenvolvimento: CodeBlocks
 - Metodologia de testes: Testes unitários automatizados
   

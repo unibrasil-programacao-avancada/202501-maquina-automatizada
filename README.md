@@ -31,7 +31,6 @@ Os conectores são compatíveis, pois para cada ponto de conexão, um é um plug
 ### Entrada
 
 1 0 1 0 1 
-
 0 1 0 1 0
 
 ### Saída
@@ -40,7 +39,7 @@ Y
 
 
 ### Testes
-50 Sucessos
+50 Sucessos 
 2 Falhas
 
 

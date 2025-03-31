@@ -22,27 +22,23 @@ void solve_warmup(FILE* ptr_in_file, char* file_name, const char* warmup_instanc
     }
 
     //===================================Solucao===================================================================
-int linha1[5], linha2[5];
-
-// Leitura segura dos valores
-for (int i = 0; i < 5; i++) {
-    fscanf(ptr_in_file, "%d", &linha1[i]);
-}
-for (int i = 0; i < 5; i++) {
-    fscanf(ptr_in_file, "%d", &linha2[i]);
-}
-
-// Verificação de compatibilidade
-bool compativel = true;
-for (int i = 0; i < 5; i++) {
-    if (linha1[i] == linha2[i]) { // Se houver um par igual, são incompatíveis
-        compativel = false;
-        break;
+    int linha1[5], linha2[5];
+    fscanf(ptr_in_file, " %d %d %d %d %d", &linha1[0], &linha1[1], &linha1[2], &linha1[3], &linha1[4]);
+    fscanf(ptr_in_file, " %d %d %d %d %d", &linha2[0], &linha2[1], &linha2[2], &linha2[3], &linha2[4]);
+    bool diferentes = true;
+    for (int i = 0; i < 5; i++)
+    {
+        if (linha1[i] == linha2[i])
+        {
+            fprintf(fwsolptr, "N\n");
+            diferentes = false;
+            break;
+        }
     }
-}
-
-// Escrita da resposta no arquivo
-fprintf(fwsolptr, "%c\n", compativel ? 'Y' : 'N');
+    if (diferentes)
+    {
+        fprintf(fwsolptr, "Y\n");
+    }
 
     //=======================================================================================================
 

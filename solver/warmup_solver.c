@@ -20,7 +20,6 @@ void solve_warmup(FILE* ptr_in_file, char* file_name, const char* warmup_instanc
         printf("File '%s' can't be opened\n", SOLUTION_FILE);
         exit(1);
     }
-
     //===================================Solucao===================================================================
     int linha1[5], linha2[5];
     fscanf(ptr_in_file, " %d %d %d %d %d", &linha1[0], &linha1[1], &linha1[2], &linha1[3], &linha1[4]);

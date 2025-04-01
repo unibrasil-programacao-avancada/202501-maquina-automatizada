@@ -42,7 +42,7 @@ N
 ```
 
 ## Testes
-O projeto inclui 52 testes automatizados:
+O projeto inclui 50 testes automatizados:
 - **50 Sucessos** (casos em que a verificação foi correta).
 
 ## Tecnologias Utilizadas

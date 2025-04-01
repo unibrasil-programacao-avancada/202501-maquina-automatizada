@@ -44,7 +44,6 @@ N
 ## Testes
 O projeto inclui 52 testes automatizados:
 - **50 Sucessos** (casos em que a verificação foi correta).
-- **2 Falhas** (casos em que a verificação apresentou erro).
 
 ## Tecnologias Utilizadas
 - Linguagem de programação:C

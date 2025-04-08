@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1743949025 source:c:\projetos\faculdade\programacao-avancada\tp0\warmup.c
+	<stdio.h>
+	<dirent.h>
+	<string.h>
+	"include/warmup_solver.h"
+
+1743949025 c:\projetos\faculdade\programacao-avancada\tp0\include\warmup_solver.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1743980415 source:c:\projetos\faculdade\programacao-avancada\tp0\solver\warmup_solver.c
+	"../include/warmup_solver.h"
+
